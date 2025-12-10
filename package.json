@@ -1,0 +1,29 @@
+{
+  "name": "Lab_1",
+  "version": "1.0.0",
+  "description": "Lab_1 of scripted programming languages",
+  "homepage": "https://github.com/EgorAntonenko//Lab_1#readme",
+  "bugs": {
+    "url": "https://github.com/EgorAntonenko//Lab_1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EgorAntonenko//Lab_1.git"
+  },
+  "license": "ISC",
+  "author": "Yegor Antonenko",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.0"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "7.1.4"
+  }
+}
